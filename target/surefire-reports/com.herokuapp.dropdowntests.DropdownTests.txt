@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.herokuapp.dropdowntests.DropdownTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.628 s <<< FAILURE! - in com.herokuapp.dropdowntests.DropdownTests
+com.herokuapp.dropdowntests.DropdownTests.optionTwoTest  Time elapsed: 12.011 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Dropdown (tried for 10 second(s) with 500 milliseconds interval)
+	at com.herokuapp.dropdowntests.DropdownTests.optionTwoTest(DropdownTests.java:14)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Dropdown"}
+  (Session info: chrome=80.0.3987.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O3S950Q', ip: '192.168.100.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9c953f4e454231bdbc5141a3e25ebb46
+*** Element info: {Using=link text, value=Dropdown}
+	at com.herokuapp.dropdowntests.DropdownTests.optionTwoTest(DropdownTests.java:14)
+
